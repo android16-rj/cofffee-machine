@@ -92,7 +92,7 @@ class CoffeeMachine:
             return
         elif coffe != "1" or "2" or "3":
             print("Enter correct option! : 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu: ")
-            return self.buy()
+            return self.buy()  # added the code for wrong inputs by the user which returned to 'buy' option.
 
     def fill(self):
         a = int(input("""Write how many ml of water do you want to add:
